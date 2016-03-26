@@ -55,6 +55,7 @@ nginx_sites:
 
 tpls:
   nginx_conf: "nginx.conf.j2"
+  site_conf: "site.conf.j2"
 
 nginx_remove_sites: []
 
