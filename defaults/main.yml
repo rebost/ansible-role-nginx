@@ -57,6 +57,12 @@ tpls:
   nginx_conf: "nginx.conf.j2"
   site_conf: "site.conf.j2"
 
+site_specific_confs:
+  - "sites-available"
+  - "sites-enabled"
+  - "auth_basic"
+  - "conf.d"
+
 nginx_remove_sites: []
 
 nginx_configs: {}
